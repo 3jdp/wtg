@@ -38,9 +38,7 @@ $responsive_options = responsive_get_options();
 	<div id="footer-wrapper">
 
 		<?php get_sidebar( 'footer' ); ?>
-
-		<div class="grid col-940">
-<div class="grid col-940 clear fix fit centered">
+<div class="grid col-940">
 <div id="collegelinks">
 <a href="http://www.cns.utexas.edu"><img src="/wordpress/wp-content/uploads/2014/07/college_black.jpg"></a>
 <a href="http://www.utexas.edu">University of Texas at Austin</a> | <a href="http://www.ph.utexas.edu">Physics Department</a> | <a href="http://www.tcc.utexas.edu">Texas Cosmology Center</a>
@@ -65,7 +63,9 @@ $responsive_options = responsive_get_options();
 			</div>
 			<!-- end of col-380 fit -->
 
-		</div>
+	
+</div>
+</div>
 		<!-- end of col-940 -->
 		<?php get_sidebar( 'colophon' ); ?>
 
