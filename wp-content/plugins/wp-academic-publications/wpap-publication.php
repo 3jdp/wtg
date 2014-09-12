@@ -301,53 +301,6 @@
 		}			
 
 
-//		foreach ($pubs as $pub) {
-			// Create the links string
-//			$links = array();
-//			if (strtolower($options['show_links']) == 'true') {
-//				if (!empty($pub['pdf_url'])) {
-//					$link = '<a href="' . wp_get_attachment_url($pub['pdf_url']) . '">' . __('paper', 'wpap') . '</a>';
-//					array_push($links, $link);
-//				}
-//				if (!empty($pub['bibtex_url'])) {
-//					$link = '<a href="' . wp_get_attachment_url($pub['bibtex_url']) . '">' . __('BibTex', 'wpap') . '</a>';
-//					array_push($links, $link);
-//				}
-//				if (!empty($pub['slides_ppt'])) {
-//					$link = '<a href="' . wp_get_attachment_url($pub['slides_ppt']) . '">' . __('slides (ppt)', 'wpap') . '</a>';
-//					array_push($links, $link);
-//				}
-//				if (!empty($pub['website_url'])) {
-//					$link = '<a href="' . $pub['website_url'] . '">' . __('website', 'wpap') . '</a>';
-//					array_push($links, $link);
-//				}
-//				$links_str = '<p class="publication-links">' . implode(' | ', $links) . '</p>';
-//			}
-
-
-//			$header = '<span class="publication-title publication'.$pub['id'].'">' . $pub['title'] . '</span>';
-//			$body   = '<p class="publication-authors">' . $pub['authors'] . '</p>';
-//			$body  .= '<p class="publication-conference">' . $pub['conference'] . '</p>';
-//
-//			$pubout = $header . $body . ((count($links) > 0) ? $links_str : '');
-//
-//			$output .= '<li>' . $pubout . '</li>';
-//
-//		}
-
-		// Wrap output in list tags and a div for good measure
-//		if (strtolower($options['numbered']) == 'true') {
-//			$output = '<ol>' . $output . '</ol>';
-//		} else {
-//			$output = '<ul>' . $output . '</ul>';
-//		}
-//
-//		$output = '<div class="wpap">' . $output . '</div>';
-//
-//		return $output;
-//
-//	}
-
 	function wpap_shortcode($atts) {
 		global $wpap_options;
 
