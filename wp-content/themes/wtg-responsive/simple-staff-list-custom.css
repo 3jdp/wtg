@@ -1,0 +1,17 @@
+img  {
+    float: left;
+    padding-right: 10px;
+}
+
+h3 {
+font-family: "Benton Sans Re Bold", Arial, serif;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+p {
+font-family: "Benton Sans Re Regular", Arial, serif;
+    margin: 0;
+    padding: 10;
+font-size: 13px;
+		font-weight: normal;

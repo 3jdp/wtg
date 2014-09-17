@@ -28,7 +28,7 @@ add_action('admin_print_styles', 'wpap_styles');
 
 require_once('wpap-functions.php');
 require_once('wpap-publication.php');
-
+//require_once('filterbar.php')
 
 add_filter('upload_mimes', 'wpap_add_bib_to_mimes');
 add_filter('manage_edit-publication_columns', 'wpap_show_publication_column');
